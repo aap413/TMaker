@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847A64E918A8252500F44E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A64E818A8252500F44E17 /* Foundation.framework */; };
+		847A64EB18A8252500F44E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A64EA18A8252500F44E17 /* CoreGraphics.framework */; };
+		847A64ED18A8252500F44E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A64EC18A8252500F44E17 /* UIKit.framework */; };
+		847A64F318A8252500F44E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847A64F118A8252500F44E17 /* InfoPlist.strings */; };
+		847A64F518A8252500F44E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A64F418A8252500F44E17 /* main.m */; };
+		847A64F918A8252500F44E17 /* TMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A64F818A8252500F44E17 /* TMPAppDelegate.m */; };
+		847A64FB18A8252500F44E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A64FA18A8252500F44E17 /* Images.xcassets */; };
+		847A650218A8252500F44E17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A650118A8252500F44E17 /* XCTest.framework */; };
+		847A650318A8252500F44E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A64E818A8252500F44E17 /* Foundation.framework */; };
+		847A650418A8252500F44E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847A64EC18A8252500F44E17 /* UIKit.framework */; };
+		847A650C18A8252500F44E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847A650A18A8252500F44E17 /* InfoPlist.strings */; };
+		847A650E18A8252500F44E17 /* TMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A650D18A8252500F44E17 /* TMakerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847A650518A8252500F44E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847A64DD18A8252500F44E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847A64E418A8252500F44E17;
+			remoteInfo = TMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847A64E518A8252500F44E17 /* TMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A64E818A8252500F44E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		847A64EA18A8252500F44E17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		847A64EC18A8252500F44E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		847A64F018A8252500F44E17 /* TMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMaker-Info.plist"; sourceTree = "<group>"; };
+		847A64F218A8252500F44E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847A64F418A8252500F44E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847A64F618A8252500F44E17 /* TMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMaker-Prefix.pch"; sourceTree = "<group>"; };
+		847A64F718A8252500F44E17 /* TMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPAppDelegate.h; sourceTree = "<group>"; };
+		847A64F818A8252500F44E17 /* TMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPAppDelegate.m; sourceTree = "<group>"; };
+		847A64FA18A8252500F44E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847A650018A8252500F44E17 /* TMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A650118A8252500F44E17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		847A650918A8252500F44E17 /* TMakerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMakerTests-Info.plist"; sourceTree = "<group>"; };
+		847A650B18A8252500F44E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847A650D18A8252500F44E17 /* TMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMakerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847A64E218A8252500F44E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A64EB18A8252500F44E17 /* CoreGraphics.framework in Frameworks */,
+				847A64ED18A8252500F44E17 /* UIKit.framework in Frameworks */,
+				847A64E918A8252500F44E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A64FD18A8252500F44E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A650218A8252500F44E17 /* XCTest.framework in Frameworks */,
+				847A650418A8252500F44E17 /* UIKit.framework in Frameworks */,
+				847A650318A8252500F44E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847A64DC18A8252500F44E17 = {
+			isa = PBXGroup;
+			children = (
+				847A64EE18A8252500F44E17 /* TMaker */,
+				847A650718A8252500F44E17 /* TMakerTests */,
+				847A64E718A8252500F44E17 /* Frameworks */,
+				847A64E618A8252500F44E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847A64E618A8252500F44E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847A64E518A8252500F44E17 /* TMaker.app */,
+				847A650018A8252500F44E17 /* TMakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847A64E718A8252500F44E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847A64E818A8252500F44E17 /* Foundation.framework */,
+				847A64EA18A8252500F44E17 /* CoreGraphics.framework */,
+				847A64EC18A8252500F44E17 /* UIKit.framework */,
+				847A650118A8252500F44E17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847A64EE18A8252500F44E17 /* TMaker */ = {
+			isa = PBXGroup;
+			children = (
+				847A64F718A8252500F44E17 /* TMPAppDelegate.h */,
+				847A64F818A8252500F44E17 /* TMPAppDelegate.m */,
+				847A64FA18A8252500F44E17 /* Images.xcassets */,
+				847A64EF18A8252500F44E17 /* Supporting Files */,
+			);
+			path = TMaker;
+			sourceTree = "<group>";
+		};
+		847A64EF18A8252500F44E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847A64F018A8252500F44E17 /* TMaker-Info.plist */,
+				847A64F118A8252500F44E17 /* InfoPlist.strings */,
+				847A64F418A8252500F44E17 /* main.m */,
+				847A64F618A8252500F44E17 /* TMaker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847A650718A8252500F44E17 /* TMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				847A650D18A8252500F44E17 /* TMakerTests.m */,
+				847A650818A8252500F44E17 /* Supporting Files */,
+			);
+			path = TMakerTests;
+			sourceTree = "<group>";
+		};
+		847A650818A8252500F44E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847A650918A8252500F44E17 /* TMakerTests-Info.plist */,
+				847A650A18A8252500F44E17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847A64E418A8252500F44E17 /* TMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A651118A8252500F44E17 /* Build configuration list for PBXNativeTarget "TMaker" */;
+			buildPhases = (
+				847A64E118A8252500F44E17 /* Sources */,
+				847A64E218A8252500F44E17 /* Frameworks */,
+				847A64E318A8252500F44E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMaker;
+			productName = TMaker;
+			productReference = 847A64E518A8252500F44E17 /* TMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847A64FF18A8252500F44E17 /* TMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847A651418A8252500F44E17 /* Build configuration list for PBXNativeTarget "TMakerTests" */;
+			buildPhases = (
+				847A64FC18A8252500F44E17 /* Sources */,
+				847A64FD18A8252500F44E17 /* Frameworks */,
+				847A64FE18A8252500F44E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847A650618A8252500F44E17 /* PBXTargetDependency */,
+			);
+			name = TMakerTests;
+			productName = TMakerTests;
+			productReference = 847A650018A8252500F44E17 /* TMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847A64DD18A8252500F44E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "TM Pro";
+				TargetAttributes = {
+					847A64FF18A8252500F44E17 = {
+						TestTargetID = 847A64E418A8252500F44E17;
+					};
+				};
+			};
+			buildConfigurationList = 847A64E018A8252500F44E17 /* Build configuration list for PBXProject "TMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 847A64DC18A8252500F44E17;
+			productRefGroup = 847A64E618A8252500F44E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847A64E418A8252500F44E17 /* TMaker */,
+				847A64FF18A8252500F44E17 /* TMakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847A64E318A8252500F44E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A64F318A8252500F44E17 /* InfoPlist.strings in Resources */,
+				847A64FB18A8252500F44E17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A64FE18A8252500F44E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A650C18A8252500F44E17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847A64E118A8252500F44E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A64F918A8252500F44E17 /* TMPAppDelegate.m in Sources */,
+				847A64F518A8252500F44E17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A64FC18A8252500F44E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847A650E18A8252500F44E17 /* TMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847A650618A8252500F44E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847A64E418A8252500F44E17 /* TMaker */;
+			targetProxy = 847A650518A8252500F44E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847A64F118A8252500F44E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A64F218A8252500F44E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		847A650A18A8252500F44E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847A650B18A8252500F44E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847A650F18A8252500F44E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		847A651018A8252500F44E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847A651218A8252500F44E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMaker/TMaker-Prefix.pch";
+				INFOPLIST_FILE = "TMaker/TMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		847A651318A8252500F44E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMaker/TMaker-Prefix.pch";
+				INFOPLIST_FILE = "TMaker/TMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		847A651518A8252500F44E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMaker.app/TMaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMaker/TMaker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TMakerTests/TMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		847A651618A8252500F44E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TMaker.app/TMaker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMaker/TMaker-Prefix.pch";
+				INFOPLIST_FILE = "TMakerTests/TMakerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847A64E018A8252500F44E17 /* Build configuration list for PBXProject "TMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A650F18A8252500F44E17 /* Debug */,
+				847A651018A8252500F44E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847A651118A8252500F44E17 /* Build configuration list for PBXNativeTarget "TMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A651218A8252500F44E17 /* Debug */,
+				847A651318A8252500F44E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847A651418A8252500F44E17 /* Build configuration list for PBXNativeTarget "TMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847A651518A8252500F44E17 /* Debug */,
+				847A651618A8252500F44E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847A64DD18A8252500F44E17 /* Project object */;
+}
